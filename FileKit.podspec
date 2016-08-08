@@ -7,9 +7,9 @@ Pod::Spec.new do |s|
     s.author                    = "Nikolai Vazquez"
     s.ios.deployment_target     = "8.0"
     s.osx.deployment_target     = "10.9"
-    s.osx.exclude_files         = "FileKit/*/FileProtection.swift"
+    s.osx.exclude_files         = "Sources/*/FileProtection.swift"
     s.watchos.deployment_target = '2.0'
     s.tvos.deployment_target    = '9.0'
     s.source                    = { :git => "https://github.com/nvzqz/FileKit.git", :tag => "v#{s.version}" }
-    s.source_files              = "FileKit/*/*.swift"
+    s.source_files              = "Sources/*/*.swift"
 end
